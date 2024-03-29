@@ -1,0 +1,23 @@
+{
+  "name": "blackworld-commitlint-config",
+  "version": "0.0.3",
+  "main": "index.js",
+  "description": "blackworld设置的Git提交规范",
+  "keywords": [
+    "encode",
+    "commit",
+    "lint"
+  ],
+  "author": "blackworld",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sincerely1/pre-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sincerely1/pre-lint/issue"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  }
+}
