@@ -15,7 +15,6 @@
 ```bash1
 npm install blackworl-lint -g
 blackworld-lint -g 
-
 ```
 
 ## 设计目的
