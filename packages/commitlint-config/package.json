@@ -1,6 +1,6 @@
 {
   "name": "blackworld-commitlint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "description": "blackworld 设置的Git提交规范",
   "keywords": [
