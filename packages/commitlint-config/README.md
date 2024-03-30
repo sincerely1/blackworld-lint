@@ -16,7 +16,7 @@ npm install blackworld-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 blackworld-commitlint-configmodule.exports = {
-	extends: ['encode-fe-commitlint-config'],
+	extends: ['blackworld-commitlint-config'],
 };
 ```
 
