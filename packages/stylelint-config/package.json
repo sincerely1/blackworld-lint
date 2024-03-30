@@ -1,0 +1,31 @@
+{
+  "name": "blackworld-stylelint-config",
+  "version": "0.0.2",
+  "description": "blackworld 设置的CSS规范",
+  "main": "index.js",
+  "keywords": [
+    "style",
+    "lint"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "blackworld",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sincerely1/blackworld-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sincerely1/blackworld-lint/issue"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "stylelint": "^16.3.1",
+    "stylelint-scss": "^6.2.1"
+  }
+}

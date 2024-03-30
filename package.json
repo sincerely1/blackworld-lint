@@ -1,6 +1,6 @@
 {
   "name": "blackworld-lint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "前端编码规范工程化",
   "scripts": {
@@ -22,10 +22,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sincerely1/pre-lint.git"
+    "url": "git+https://github.com/sincerely1/blackworld-lint.git"
   },
   "bugs": {
-    "url": "https://github.com/sincerely1/pre-lint/issue"
+    "url": "https://github.com/sincerely1/blackworld-lint/issue"
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2"
