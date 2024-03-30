@@ -1,5 +1,5 @@
 {
-  "name": "blackworld-fe-lint",
+  "name": "blackworld-lint",
   "version": "0.0.1",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
