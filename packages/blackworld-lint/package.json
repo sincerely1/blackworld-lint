@@ -45,10 +45,10 @@
     "@commitlint/cli": "^16.3.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "blackworld-commitlint-config": "workspace:^",
-    "blackworld-eslint-config": "workspace:^",
-    "blackworld-markdownlint-config": "workspace:^",
-    "blackworld-stylelint-config": "workspace:^",
+    "blackworld-commitlint-config": "^0.0.2",
+    "blackworld-eslint-config": "^0.0.2",
+    "blackworld-markdownlint-config": "^0.0.2",
+    "blackworld-stylelint-config": "^0.0.2",
     "chalk": "^4.1.2",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
@@ -90,5 +90,6 @@
   },
   "bugs": {
     "url": "https://github.com/sincerely1/blackworld-lint/issue"
-  }
+  },
+  "gitHead": "ad9ff7cbd995176e17cf53c249a20030a5468156"
 }
