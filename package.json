@@ -1,13 +1,13 @@
 {
   "name": "create-fe-lint",
-  "version": "0.0.4",
-  "private": false,
+  "private": true,
   "description": "前端编码规范工程化",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
+    "test": " lerna run test",
     "build": "lerna run build --stream",
     "publish": "lerna publish",
     "lint": "markdownlint README.md"
@@ -18,7 +18,7 @@
     "prepare"
   ],
   "author": "balckworld",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sincerely1/blackworld-lint.git"
@@ -27,7 +27,7 @@
     "url": "https://github.com/sincerely1/blackworld-lint/issue"
   },
   "dependencies": {
-    "markdownlint-cli": "^0.39.0"
+    "conventional-changelog-conventionalcommits": "^7.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
@@ -36,5 +36,9 @@
     "markdownlint": "^0.34.0",
     "pnpm": "^8.15.5",
     "rimraf": "^5.0.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
