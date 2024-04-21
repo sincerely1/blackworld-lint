@@ -1,6 +1,6 @@
 {
   "name": "blackworld-eslint-config",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "index.js",
   "description": "blackworld 设置的 JavaScript TypeScript Node 规范",
   "keywords": [
