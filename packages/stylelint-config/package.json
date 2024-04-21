@@ -1,6 +1,6 @@
 {
   "name": "blackworld-stylelint-config",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.0",
   "description": "blackworld 设置的CSS规范",
   "main": "index.js",
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "blackworld-markdownlint-config",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.0",
   "main": "index.json",
   "description": "blackworld 设置的文档规范",
   "keywords": [
