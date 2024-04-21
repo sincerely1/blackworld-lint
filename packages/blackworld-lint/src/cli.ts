@@ -17,6 +17,7 @@ import generateTemplate from './utils/generate-template';
 import { PKG_NAME, PKG_VERSION } from './utils/constants';
 
 const cwd = process.cwd();
+
 /**
  * 若无 node_modules，则帮用户 install（否则会找不到 config）
  */
@@ -34,6 +35,7 @@ const installDepsIfThereNo = async () => {
     execSync(`cd ${cwd} && ${npm} i`);
   }
 };
+
 program
   .version(PKG_VERSION)
   .description(
@@ -57,17 +59,6 @@ program
   });
 
 program
-  .command('commit-msg-scan')
-  .description('commit message 检查: git commit 时对 commit message 进行检查')
-  .action(() => {
-    const result = spawn.sync('commitlint', ['-E', 'HUSKY_GIT_PARAMS'], { stdio: 'inherit' });
-
-    if (result.status !== 0) {
-      process.exit(result.status);
-    }
-  });
-
-  program
   .command('scan')
   .description('一键扫描：对项目进行代码规范问题扫描')
   .option('-q, --quiet', '仅报告错误信息 - 默认: false')
@@ -164,7 +155,6 @@ program
     checking.succeed();
     if (results.length > 0) printReport(results, true);
   });
-
 
 program
   .command('update')
